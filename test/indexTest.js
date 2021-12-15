@@ -4,7 +4,7 @@ describe('superbowlWin(record)', function () {
     { year: "2018", result: "N/A"},
     { year: "2017", result: "N/A"},
     { year: "2016", result: "N/A"},
-    { year: "1976", result: "W"},
+    { year: "2015", result: "W"},
     { year: "2014", result: "N/A"},
     { year: "2013", result: "L"},
     { year: "2012", result: "N/A"},
@@ -63,7 +63,7 @@ describe('superbowlWin(record)', function () {
   ]
 
   it('returns a year the Denver Broncos won the superbowl', function () {
-    expect(superbowlWin(record)).to.equal('1976');
+    expect(superbowlWin(record)).to.equal('2015');
   });
 
   it('returns undefined if the record has no win objects', function() {
